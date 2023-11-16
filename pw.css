@@ -1,4 +1,6 @@
-
+html{
+  scroll-behavior: smooth;
+}
 body{
     margin: 0;
     padding: 0;
@@ -45,12 +47,12 @@ margin: 0 auto 60px auto;
 } */
 .single-service p{            
     color: #262626;
-    font-size: 14px;
+    font-size: 16px;
 }
 .single-service h3 {
     font-size: 25px;
     text-transform: uppercase;
-    font-family: poppins;
+    font-family: Arial, Helvetica, sans-serif;
     letter-spacing: 1px;
     color: #262626;
 }
