@@ -1,0 +1,23 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+img {
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+}
+
+.canvas {
+  height: 100vh;
+  padding-left: 21px;
+}
+
+
+@media screen and (max-width: 480px) {
+  .canvas {
+    height: 100vh;
+  }
+}

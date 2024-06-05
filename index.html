@@ -1,284 +1,92 @@
 <!DOCTYPE html>
-<html lang="en" style="scroll-behavior: smooth;">
+<html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Muhammed Sanin</title>
-  <link rel="icon" href="" class="rounded-circle" type="image/gif" sizes="16x16">
-
-  <link rel="stylesheet" href="pw.css">
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-  integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <!-- bootsrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <!-- icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
   integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
   crossorigin="anonymous" referrerpolicy="no-referrer" />
-<!-- aos -->
-<link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
-
+    <title>Document</title>
 </head>
 
 <body>
+    <div class="col canvas bg-dark">
 
-  <header class="bg-dark" style=" position:fixed; width:100% ; z-index: 1;">
-
-    <div class="row text-white">
-
-      <div class="col-md-6 col-9 p-1 pl-4 my-auto">
-        <h4 style="font-weight:600">MS</h4>
-
-      </div>
-      <div class="col-md-6 col-3 my-auto ">
-        <nav class="navbar navbar-expand-lg navbar-light">
-
-          <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse"
-            data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-            aria-label="Toggle navigation">
-            <i class="fa-solid fa-bars fa-lg" style="color: #ffffff;"></i> </button>
-
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ml-auto ">
-              <li class="nav-item active">
-                <a class="nav-link text-white " href="#home-section">Home <span class="sr-only">(current)</span></a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-white " href="#about-section">About</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-white " href="#service-section">Services</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-white " href="#contact-section">Contact Me</a>
-              </li>
-
-            </ul>
-
-          </div>
-        </nav>
-      </div>
-
-    </div>
-
-  </header>
-
-
-  <section class="" id="home-section" style="padding-top: 3cm;">
-    <div class="container">
-      <div class="row align-items-center text-center">
-        <div class="col-md-6 ">
-
-          <br>
-
-          <br>
-          <h6 class="text-danger" data-aos="fade-down" data-aos-duration="1500">Hello, Iam</h6>
-          <h2 class="" style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;" data-aos="fade-right" data-aos-duration="1500">Muhammed Sanin</h2>
-          <h6 class="text-secondary" data-aos="fade-left" data-aos-duration="1500">Software Developer</h6>
-
-          <br>
-          <!-- data-aos="fade-down" data-aos-duration="1500" -->
-          <div >
-            <a href="https://github.com/sanin-mn" class="btn btn-social-icon btn-github text-secondary" data-aos="fade-right" data-aos-duration="3000">
-              <i class="fa-brands fa-github"></i>
-            </a>
-
-            <a href="https://www.linkedin.com/in/sanin-mn/" class="btn btn-social-icon btn-linkedin text-secondary" data-aos="fade-right" data-aos-duration="2500">
-              <i class="fa-brands fa-linkedin-in"></i>
-            </a>
-            
-            <a href="https://twitter.com/Sanin_369" class="btn btn-social-icon btn-twitter text-secondary" data-aos="fade-right" data-aos-duration="2000">
-              <i class="fa-brands fa-x-twitter"></i>
-            </a>
-
-            <a href="https://www.instagram.com/sanin_mn" class="btn btn-social-icon btn-instagram text-secondary" data-aos="fade-right" data-aos-duration="1500">
-              <i class="fa-brands fa-instagram"></i>
-            </a>
-          </div>
-
-          <br>
-          <div class="mb-3" data-aos="fade-up" data-aos-duration="1500">
-            <!-- <a href="https://wa.me/+917356857003" type="button" class="btn btn-outline-dark" style="width: auto;">Hire Me</a> -->
-            <a href="/Muhammed Sanin.pdf" target="_blank" type="button" download class="btn btn-outline-dark"
-              style="width: auto;font-weight: 500;">Download CV
-              <i class="fa-solid fa-file-arrow-down" aria-hidden="true"></i>
-            </a>
-          </div>
-
+        <div class="row w-100 d-flex align-items-center justify-content-center">
+            <img src="./profile.jpg" alt="profile" class="img-fluid"
+                style="width: 16rem; border-radius: 50%; margin-top: 4rem;">
+            <div class="w-100 bg-danger mt-4" style="height: .25rem;"></div>
         </div>
+        <div class="row text-box w-100 text-center d-flex align-items-center justify-content-center">
+            <div class="mt-3 boxer text-white">
+                <h5 class="text-nowrap">MUHAMMED SANIN</h5>
+                <h6 class="text-nowrap" style="font-weight: 400;">Software engineer</h6>
+                <p class="text-secondary mt-3">Hey, I am a self-taught developer who loves to solve problems digitally with
+                    top notch technologies. I am specialised in web technologies. With a strong foundation in HTML, CSS,
+                    and JavaScript, I specialize in creating sleek, responsive websites that not only meet but exceed
+                    user expectations.</p>
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-outline-light btn-sm" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    Connect me
+                </button>
 
-        <div class="col-md-6">
-          <img src="images/profile.jpg" alt="No image" class="profile-img img-fluid border border-secondary mt-2">
-        </div>
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header bg-dark">
+                                <p class="modal-title text-secondary" id="exampleModalLabel">Follow me on social media</p>
+                                <!-- <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button> -->
+                            </div>
+                            <div class="modal-body bg-dark">
+                                <!-- icons -->
+                                <div >
 
-      </div>
-    </div>
-  </section>
+                                    <a href="https://wa.me/+919562866814" class="btn btn-social-icon btn-whatsapp text-light fs-1" >
+                                        <i class="fa-brands fa-whatsapp fa-fade"></i>
+                                      </a>
 
-  <section class="bg-light p-5 mt-5" id="about-section">
+                                      <a href="https://www.instagram.com/sanin_mn" class="btn btn-social-icon btn-instagram text-light fs-1">
+                                        <i class="fa-brands fa-instagram fa-fade"></i>
 
-    <div class="container">
-      <h2 class="text-center" style="font-family: Verdana, Geneva, Tahoma, sans-serif; font-weight: 300;"> About Me
-      </h2>
-      <div class="row align-items-center text-center">
-
-        <div class="col-md-6">
-
-          <p> Hey, I am a self-taught developer who loves to
-            solve problems digitally with top notch
-            technologies. I am specialised in
-            web technologies.  With a strong foundation
-            in HTML, CSS, and JavaScript, I specialize in creating sleek, responsive websites that not only meet but
-            exceed user expectations. My commitment to staying at the forefront of technology ensures that I bring
-            fresh, innovative solutions to every project.</p>
-
-        </div>
-
-        <div class="col-md-6">
-          <img src="images/18907.svg" alt="" class="img-fluid">
-        </div>
-
-      </div>
-
-    </div>
-
-    </div>
-  </section>
-
-  <section class="" id="service-section">
-
-
-    <div class="container">
-      <div class="row">
-
-        <div class="wrapper text-center align-items-center ">
-
-          <h4 class="mb-5"
-            style="font-weight: 300; font-size: .90cm; font-family: Verdana, Geneva, Tahoma, sans-serif; color: black;">
-            Services</h4>
-          <div class="line">
-          </div>
-          <div class="single-service">
-            <div class="social">
-              <i class="fa-brands fa-figma"></i>
+                                        <a href="https://twitter.com/Sanin_369" class="btn btn-social-icon btn-twitter text-light fs-1" >
+                                            <i class="fa-brands fa-x-twitter fa-fade"></i>
+                                          </a>
+                                      </a>
+                                    <!-- <a href="https://github.com/sanin-mn" class="btn btn-social-icon btn-github text-light fs-1" >
+                                      <i class="fa-brands fa-github fa-fade"></i>
+                                    </a>
+                         -->
+                                    <a href="https://www.linkedin.com/in/sanin-mn/" class="btn btn-social-icon btn-linkedin text-light fs-1" >
+                                      <i class="fa-brands fa-linkedin-in fa-fade"></i>
+                                    </a>
+                                    
+                                    
+                        
+                                    
+                                  </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <span></span>
-            <h3>
-              Web Design</h3>
-            <p class="text-muted">
-              I believe that effective design is a collaborative process. I work closely with clients, valuing feedback
-              to ensure the end result aligns seamlessly with their vision and goals.Whether you're starting from
-              scratch or seeking a revamp, I'm here to transform your digital aspirations into reality</p>
-          </div>
-          <div class="single-service">
-            <div class="social">
-              <i class="fa fa-cogs"></i>
-            </div>
-            <span></span>
-            <h3>
-              Web Devolopment</h3>
-            <p class="text-muted">
-              My Websites are minimalist yet visually striking. In a competitive market, it is often the smaller details
-              and visual touches that take your online space to the next level. All my products are designed with
-              impeccable attention to detail and a timeless artistic flair.</p>
-          </div>
-          <div class="single-service">
-            <div class="social">
-              <i class="fa fa-diamond"></i>
-            </div>
-            <span></span>
-            <h3>
-              Graphics design</h3>
-            <p class="text-muted">
-              I provide you with the illustrations in high-quality format and make sure they are ready to use. Also, I
-              can create for you a final product with a design . My design can be used as backgrounds for marketing,
-              websites, imagery for promo products, and banners etc.</p>
-          </div>
+            <!-- view more -->
+            <a href="" class="text-primary mt-3">view more</a>
+
         </div>
-        <!-- projects -->
-        <div class="text-center border border-muted w-100 p-3 mb-5">
-          <a href="https://github.com/sanin-mn?tab=repositories" target="_blank" class="btn btn-outline-dark"><h5 class="text-decoration-none">My Works <i class="fa-solid fa-layer-group fa-lg"></i></h5></a>
-        </div>
-
-      </div>
-
-
     </div>
-
-  </section>
-
-
-  <div class="d-flex flex-column">
-
-   
-    <section class="hero text-white py-5 flex-grow-1 bg-light" id="contact-section">
-      <div class="container py-4">
-        <div class="row  align-items-center ">
-          <div class="col-lg-6">
-            <h1 class="display-4"></h1>
-            <p class="fst-italic text-muted">"Thank you for taking the time to explore my portfolio! I hope you enjoyed
-              getting a glimpse into my work and experiences. Feel free to connect with me if you have any inquiries,
-              collaboration ideas, or just want to share your thoughts. Your interest is truly appreciated. I look
-              forward to the possibility of working together or hearing your feedback." <a class="text-dark">Muhammed sanin</a></p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-
-    <!-- FOOTER -->
-    <footer class="w-100 py-4 flex-shrink-0 ">
-      <div class="container py-4">
-        <div class="row gy-4 gx-5   align-items-center">
-          <div class="col-lg-4 col-md-6">
-
-            <p class="small text-muted">This is my simple portfolio made with <i class="fa-solid fa-heart fa-sm"></i> </p>
-            <p class="small text-muted mb-0">&copy; 2021 - All Rights Reserved, sanin-mn</p>
-          </div>
-          <div class="col-lg-2 col-md-6">
-
-            <ul class="list-unstyled text-muted">
-              <li><a href="#">Home</a></li>
-              <li><a href="#about-section">About</a></li>
-              <li><a href="#">Get started</a></li>
-              <li><a href="#">FAQ</a></li>
-            </ul>
-          </div>
-
-          <div class="col-lg-4 col-md-6">
-            <h6 class="text-white mb-2">Message Me</h6>
-            <p class="small text-muted">Have a question, a project idea, or just want to connect? I'd love to hear from
-              you! Your thoughts and inquiries are always welcome</p>
-            <form action="#">
-              <div class="input-group mb-3">
-                <input class="form-control" type="text" placeholder="Type Your Message"
-                  aria-label="Recipient's username" aria-describedby="button-addon2">
-                <button class="btn btn-primary" id="button-addon2" type="button"><i
-                    class="fas fa-paper-plane"></i></button>
-              </div>
-            </form>
-            <h6 class="text-muted"><a class="text-decoration-none" href="https://wa.me/+917356857003" target="_blank">Connect with whatsapp <i
-              class="fa-brands fa-whatsapp text-success"></i></a></h6>
-          </div>
-        </div>
-      </div>
-    </footer>
-  </div>
-
 </body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-crossorigin="anonymous"></script>
-<!-- aos -->
-<script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
-
-<script>
-  AOS.init();
-</script>
 </html>
